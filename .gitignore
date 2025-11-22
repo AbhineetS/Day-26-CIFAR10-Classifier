@@ -1,0 +1,21 @@
+# Local venv
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model artifacts (do NOT push large models)
+*.h5
+*.keras
+*.ckpt
+*.pth
+
+# Large images / data (optional — remove if you want to keep PNG results)
+*.png
+data/
